@@ -109,7 +109,7 @@ body {
     height: 200px;
     background-size: cover;
     transition: 0.3s;
-    box-sizing: border-box;  /* Adicionado para garantir que o box-shadow não afete o tamanho total */
+    box-sizing: border-box;  
 }
 
 .photo:hover {
@@ -143,4 +143,37 @@ body {
     align-self: center;
     margin-top: 20px;
     padding: 10px 20px;
+}
+
+.search-container {
+    margin-top: 57px;
+    margin-bottom: 41px;
+    text-align: center;
+    background: black;
+    padding-bottom: 142px;
+}
+
+#search-input {
+    padding: 10px 20px; 
+    font-size: 18px; 
+    border: 2px solid #ccc;
+    border-radius: 5px; 
+    width: 70%; 
+    outline: none; 
+    margin-top: 94px;
+}
+
+button {
+    padding: 10px 20px; 
+    font-size: 18px; 
+    border: none; 
+    background-color: #333; 
+    color: #fff; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+}
+
+button:hover {
+    background-color: #555; 
 }
