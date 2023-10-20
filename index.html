@@ -8,15 +8,17 @@
 </head>
 <body>
     <div class="search-container">
-        <input type="text" id="search-input" placeholder="Digite o que você quer pesquisar...">
-        <button onclick="searchImages()">Pesquisar</button>
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Digite o que você quer pesquisar...">
+            <button type="button" id="search-button">Pesquisar</button>
+        </form>
     </div>
+    
     <div class="gallery">
         <!-- As imagens serão adicionadas aqui pelo JavaScript -->
     </div>
     
     <header>
-        <!-- Navbar -->
         <div class="navbar">
             <a href="#" class="logo">Photography Studio</a>
             <div class="menu-items">
@@ -24,30 +26,16 @@
                 <a href="#">About</a>
                 <a href="#">Services</a>
                 <a href="#">Portfolio</a>
-                <a href="#">Contact</a>
+                <a href="#" class="login-btn">Login</a>
             </div>
         </div>
     </header>
 
-    <!-- Main Content -->
-    <div class="content">
-        
-    </div>
+    <div class="content"></div>
 
-    <div class="gallery">
-        
-        <div class="photo" style="background-image: url('https://source.unsplash.com/random/1');"></div>
-        <div class="photo" style="background-image: url('https://source.unsplash.com/random/2');"></div>
-        <div class="photo" style="background-image: url('https://source.unsplash.com/random/3');"></div>
-        <div class="photo" style="background-image: url('https://source.unsplash.com/random/4');"></div>
-        <div class="photo" style="background-image: url('https://source.unsplash.com/random/5');"></div>
-    </div>
-    
-    
     <div class="modal">
         <img src="" alt="Enlarged Photo">
         <button>Close</button>
-
     </div>
 
     <footer>
